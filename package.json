@@ -1,0 +1,44 @@
+{
+  "author": "Zero65 Technologies Pvt. Ltd.",
+  "name": "@zero65tech/log",
+  "version": "4.0.0",
+  "description": "Logging Toolkit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zero65Tech/log"
+  },
+  "keywords": [
+    "log",
+    "zero65",
+    "zero65-tech"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage --testPathPattern=test/",
+    "lint": "npx eslint --fix src test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "8.54.x",
+    "jest": "29.7.x"
+  },
+  "eslintConfig": {
+    "env": {
+      "es2021": true,
+      "jest": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": "latest"
+    },
+    "rules": {
+      "no-constant-condition": "warn",
+      "no-useless-escape": "warn"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
